@@ -3,100 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Global Store</title>
+    <title>Max Candalla | Technical Support Portfolio</title>
     <style>
-        /* Modern & Clean Style */
+        /* Dito ko na nilagay ang CSS para konektado na agad sila */
         body {
-            background-color: #f8f9fa; /* Light gray/white background */
-            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            color: #1a1a1a;
-        }
-
-        .product-container {
-            background: #ffffff;
-            width: 90%;
-            max-width: 400px;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05); /* Soft shadow lang */
-            text-align: left; /* Foreigners like left-aligned text */
-        }
-
-        .image-box {
-            width: 100%;
-            height: 300px;
-            background-image: url('https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&q=80&w=1000');
-            background-size: cover;
-            background-position: center;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-
-        .category {
-            text-transform: uppercase;
-            font-size: 12px;
-            letter-spacing: 2px;
-            color: #888;
-            font-weight: bold;
-        }
-
-        h1 {
-            font-size: 28px;
-            margin: 10px 0;
-            font-weight: 600;
-        }
-
-        .price {
-            font-size: 22px;
-            color: #333;
-            margin-bottom: 15px;
-            display: block;
-        }
-
-        .desc {
-            font-size: 15px;
             line-height: 1.6;
-            color: #555;
-            margin-bottom: 25px;
         }
 
-        .btn-black {
-            display: block;
-            background: #000000; /* Black buttons are very popular abroad */
-            color: white;
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            padding: 60px 20px;
             text-align: center;
-            padding: 18px;
-            text-decoration: none;
+            border-bottom: 5px solid #38bdf8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .status-badge {
+            background-color: #064e3b;
+            color: #34d399;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 15px;
+            border: 1px solid #059669;
+        }
+
+        h1 { margin: 10px 0; color: #38bdf8; }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill-item {
+            background: #334155;
+            padding: 5px 15px;
             border-radius: 5px;
-            font-weight: 500;
+            border-left: 3px solid #38bdf8;
+        }
+
+        button {
+            background-color: #38bdf8;
+            color: #0f172a;
+            border: none;
+            padding: 15px 30px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1rem;
             transition: 0.3s;
         }
 
-        .btn-black:hover {
-            background: #333;
-        }
+        button:hover { background-color: #f8fafc; }
+
+        footer { text-align: center; padding: 40px; color: #64748b; font-size: 0.8rem; }
     </style>
 </head>
 <body>
 
-    <div class="product-container">
-        <span class="category">Eyewear Collection</span>
-        <h1>Classic Aviators</h1>
-        <span class="price">$49.00</span>
-        
-        <div class="image-box"></div>
-        
-        <p class="desc">
-            Experience timeless style and superior clarity. Our signature aviators feature scratch-resistant lenses and 100% UV protection for the modern traveler.
-        </p>
-        
-        <a href="International order.html" class="btn-black">ADD TO CART</a>
+    <header>
+        <div class="status-badge">● System Status: Online & Available</div>
+        <h1>Max Candalla</h1>
+        <p>Technical Support Specialist | ICT Graduate</p>
+    </header>
+
+    <div class="container">
+        <section class="card">
+            <h2>Technical Skills</h2>
+            <ul class="skill-list">
+                <li class="skill-item">HTML5 & CSS3</li>
+                <li class="skill-item">Technical Troubleshooting</li>
+                <li class="skill-item">ICT Infrastructure</li>
+                <li class="skill-item">Web Solutions</li>
+            </ul>
+        </section>
+
+        <<section class="card">
+    <h2>Why Hire Me?</h2>
+    <p>As an ICT graduate, I possess a solid technical foundation and a proactive approach to problem-solving. Here is why I am the right fit for your team:</p>
+    <ul style="list-style: none; padding: 0;">
+        <li>✅ <strong>Technical Expertise:</strong> Proficient in HTML5 and CSS3 with hands-on experience in building responsive web structures.</li>
+        <li>✅ <strong>Problem Solver:</strong> Skilled in identifying technical glitches and providing efficient troubleshooting solutions.</li>
+        <li>✅ <strong>Full-Time Commitment:</strong> Dedicated to working <strong>40 hours per week</strong> to ensure consistent support and productivity.</li>
+        <li>✅ <strong>Fast Learner:</strong> Highly adaptable to new software, tools, and company-specific technical workflows.</li>
+    </ul>
+</section>
+
+        <button onclick="testSystem()">Run Diagnostic Check</button>
+
+        <footer>
+            © 2026 Max Candalla Portfolio. Created via Acode.
+        </footer>
     </div>
+
+    <script>
+        function testSystem() {
+            alert("Diagnostic Tool: No issues found. System is ready for employment! 🚀");
+        }
+    </script>
 
 </body>
 </html>
